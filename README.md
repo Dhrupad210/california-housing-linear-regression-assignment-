@@ -19,7 +19,6 @@ The California Housing dataset is a classic regression dataset available through
     git clone [https://github.com/Dhrupad210/california-housing-linear-regression-assignment-.git](https://github.com/Dhrupad210/california-housing-linear-regression-assignment-.git)
     cd california-housing-linear-regression-assignment-
  ```
-    (If you uploaded directly, you already have the file locally, just navigate to its folder)
 
 2.  **Install the required libraries:**
     ```bash
@@ -38,11 +37,10 @@ A `LinearRegression` model from `sklearn.linear_model` was used. Features were s
 
 ### Evaluation Metrics
 Upon running the script, the following evaluation metrics for the Linear Regression model will be displayed:
-- **Mean Squared Error (MSE):** [Insert your RMSE value here, e.g., 0.523]
-- **Root Mean Squared Error (RMSE):** [Insert your RMSE value here, e.g., 0.723]
-- **R-squared (R2) Score:** [Insert your R2 score here, e.g., 0.590]
+- **Mean Squared Error (MSE):**
+- **Root Mean Squared Error (RMSE):**
+- **R-squared (R2) Score:**
 
-*(Note: Replace the bracketed values with the actual output you get when you run the script.)*
 
 ### Key Coefficients
 The script also prints the coefficients for each feature, indicating their learned importance. For example, 'MedInc' (median income) is typically a strong positive predictor, while 'Longitude' might have a negative coefficient (as you move west in California, house prices might generally decrease depending on location).
